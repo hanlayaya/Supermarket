@@ -1,0 +1,106 @@
+    *{
+    	margin:0;
+    	padding:0;
+    }
+    .employee_title{
+        position: relative;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom:20px;
+    }
+    .employee_title p{
+        position: absolute;
+        font-size: 12px;
+        vertical-align: middle;
+        color: #666;
+    }
+    .employee_title p img{
+        margin-left: 10px;
+    }
+    .sales_message{
+    	width:100%;
+    	height:10%;
+    	background:#fff;
+    	-moz-box-shadow: 1px 1px 5px #ccc;
+        -webkit-box-shadow: 1px 1px 5px #ccc;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    .sales_message form{
+    	height:70px;
+    	line-height:70px;
+    	margin-left:24px;
+    }
+    .sale_tab{
+    	position: relative;
+        width: 100%;
+        height: 80%;
+        background: #fff;
+        margin-top: 20px;
+        -moz-box-shadow: 1px 1px 5px #ccc;
+        -webkit-box-shadow: 1px 1px 5px #ccc;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    .sales_tt{
+        position: absolute;
+        top: 30px;
+        width: 95%;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        left: 20px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: #ffffff;
+        color: #ffad0e;
+        border: 1px solid #ffad0e;
+        margin: 0;
+        margin-left: 15px;
+    }
+    button:hover{
+        background: #ffad0e;
+        color: #fff;
+    }
+    th{
+        background: #fff;
+        height: 50px;
+        line-height: 50px;
+    }
+    td{
+        text-align: center;
+        vertical-align: middle;
+        height: 40px;
+    }
+    input{
+        width: 11%; 
+        height: 30px;
+        border: 1px solid #FFAD0E;
+        /* border: 0; */
+        /* border-bottom: 1px solid #666; */
+        color:#666;  
+        font-size: 16px;
+    } 
+    select{
+    	width: 19%; 
+        height: 30px;
+        border: 1px solid #FFAD0E;
+        color:#666;  
+        font-size: 16px;
+        appearance:none;
+        -moz-appearance:none;
+        -webkit-appearance:none;
+        background:url(imgs/arrow.png)no-repeat 96% center;
+    }
+    .sales_btns{
+    	position:absolute;
+    	right:60px;
+    	top:55px;
+    }
+    #sum{
+    	position:absolute;
+    	z-index:222;
+    	bottom:8%;
+    	right:5%;
+    }

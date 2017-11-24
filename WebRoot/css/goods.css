@@ -1,0 +1,197 @@
+  *{
+        margin: 0;
+        padding: 0;
+    }
+    .goods_title{
+        position: relative;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+    }
+    .goods_title p{
+        position: absolute;
+        font-size: 12px;
+        vertical-align: middle;
+        color: #666;
+    }
+    .goods_title p img{
+        margin-left: 10px;
+    }
+    .goods_sel{
+        position: relative;
+        width: 100%;
+        height: 8%;
+        background: #fff;
+        margin-top: 20px;
+        text-align: center;
+        -moz-box-shadow: 1px 1px 5px #ccc;
+        -webkit-box-shadow: 1px 1px 5px #ccc;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    .goods_sel_left{
+    	position:absolute;
+    	width:45%;
+    	height:100%;
+    	left:2%;
+    	text-align:left;
+    	padding-top:1%;
+    }
+    .goods_sel_right{
+    	position:absolute;
+    	width:45%;
+    	height:100%;
+    	right:4%;
+    	text-align:right;
+    	padding-top:1%;
+    }
+    select {
+        width: 50px;
+        height: 25px;
+          /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+          border: solid 1px #000;
+          /*很关键：将默认的select选择框样式清除*/
+          appearance:none;
+          -moz-appearance:none;
+          -webkit-appearance:none;
+          /*在选择框的最右侧中间显示小箭头图片*/
+          background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+          /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+          padding-right: 14px;
+          margin-right: 10px;
+        }
+        /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+    select::-ms-expand {
+        display: none; 
+    }
+    input:focus{
+    	border:2px solid #ffad0e;
+    }
+    .goods_tab{
+        position: relative;
+        width: 100%;
+        height: 80%;
+        background: #fff;
+        margin-top: 20px;
+        -moz-box-shadow: 1px 1px 5px #ccc;
+        -webkit-box-shadow: 1px 1px 5px #ccc;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    .goods_tt{
+        position: absolute;
+        top: 30px;
+        width: 95%;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        left: 20px;
+    }
+    .goods_tab_bottom{
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        right: 35px;
+        bottom: 8%;
+    }
+    .goods_tab_bottom input{
+        width: 25px;
+        margin-left: 10px;
+    }
+    input{
+        width: 11%; 
+        height: 30px;
+        border: 1px solid #FFAD0E;
+        /* border: 0; */
+        /* border-bottom: 1px solid #666; */
+        color:#666;  
+        font-size: 16px;
+    } 
+    #editGoodsBox input,#addGoodsBox input{
+    	width:25%;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: #ffffff;
+        color: #ffad0e;
+        border: 1px solid #ffad0e;
+        margin: 0;
+        margin-left: 15px;
+    }
+    button:hover{
+        background: #ffad0e;
+        color: #fff;
+    }
+    th{
+        background: #fff;
+        height: 50px;
+        line-height: 50px;
+    }
+    td{
+        text-align: center;
+        vertical-align: middle;
+        height: 40px;
+    }
+    .mask{
+    	margin:0;
+    	padding:0;
+    	border:none;
+    	width:100%;
+    	height:100%;
+    	background:black;
+    	opacity:0.6;
+    	filter:alpha(opacity=60);
+    	z-index:9999;
+    	position:fixed;
+    	top:0;
+    	left:0;
+    	display:none;
+    }
+    #addGoodsBox,#editGoodsBox{
+    	position:absolute;
+    	left:30%;
+    	top:20%;
+    	background:#f2f2f2;
+    	width:40%;
+    	height:45%;
+    	z-index:10000;
+    	display:none;
+    }
+    #addGoodsSuccess,#editGoodsSuccess{
+    	position:absolute;
+    	left:35%;
+    	top:20%;
+    	background:#f2f2f2;
+    	width:30%;
+    	height:40%;
+    	z-index:10000;
+    	display:none;
+    }
+    .close_btn{
+    	font-family:arial;
+    	font-size:30px;
+    	font-weight:700;
+    	color:#999;
+    	text-decoration:none;
+    	float:right;
+    	padding-right:4px;
+    }
+    .row1{
+    	background:#f7ba43; 
+    	padding:0px 20px;
+    	line-height:50px;
+    	height:50px; 
+    	font-weight:bold;
+    	color:#000;
+    	font-size:20px;
+    }
+	.row{
+		height:40px;
+		line-height:77px;
+		padding:0px 30px;
+		/* font-size:x-large;  */
+		font-size:16px;
+		text-align:center;
+	}
+	#container{
+		/* display:none; */
+	} 
